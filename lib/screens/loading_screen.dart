@@ -49,7 +49,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
   void getPosition()async{
     postion = await _determinePosition();
-    print(postion);
+    print(postion.latitude);
     
   }
 
